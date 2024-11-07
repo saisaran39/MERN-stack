@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p id="demo"></p>
+
+    <script>
+        // const person1 = {
+        //     firstName: 'Rohit',
+        //     lastName:'Sharma',
+        //     fullName: function() {
+        //         return this.firstName + " " + this.lastName;
+        //     }
+        // }
+        // const person2 = {
+        //     firstName: 'Virat',
+        //     lastName:'Kohli'
+        // }
+
+        // let tets = person1.fullName.bind(person2);
+        // console.log(tets());
+        // function myFunction(a,b) {
+        //     return a*b;
+        // }
+
+        let myFunction = (a, b=7) => a * b;
+
+        let test = myFunction(8,9);
+        console.log(test);
+    </script>
+
+</body>
+
+</html>
