@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div id="test3">
+        <p id="demo">test content</p>
+        <p class="test3">test1</p>
+        <p class="test4">Test4</p>
+        <p class="test3">Test3</p>
+    </div>
+    <script>
+        // document.getElementById('demo').addEventListener('mouseover',function() {
+        //     alert("Hello");
+        // })
+        // function test() {
+        //     debugger
+        // document.getElementById('demo').style.color="red"
+        // }
+        const para = document.createElement('p');
+        // const node= document.createTextNode('this is my content');
+        // para.appendChild(node);
+        para.innerHTML = 'some temt'
+        const div1 = document.getElementById('test3');
+        div1.appendChild(para);
+        const pTag = document.getElementById('demo');
+        pTag.remove();
+    </script>
+
+</body>
+
+</html>
+
+<!-- 
+parentNode
+childNode
+firstChild
+lastChild
+nextSibling
+previousSibling -->
